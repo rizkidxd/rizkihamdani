@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <fieldset>
+    <legend>Data Register</legend>
+  <form method="post" action="register.php">
+      <h1>Pendataan Genre Lagu Favorit Dari Mahasiswa</h1>
+    <p>Halo teman-teman disini saya ingin mengetahui genre lagu favorit dari teman-teman.<br>
+     Dengan cara mengisi form dibawah ini, terima kasih.</p>
+
+    Username:<br>
+    <input type="text" class="input-text" name="nama-pengguna" placeholder="Input username" required><br>
+    <label for="sandi">Password:</label><br>
+    <input class="input-text" name="sandi" type="password" id="sandi" name="sandi" required><br>
+    <br>
+    Jenis Kelamin:
+    <input type="radio" name="jenis kelamin" id="lk" value="pria"><label for="lk">Laki-laki</label>
+    <input type="radio" name="jenis kelamin" id="pr" value="wanita"><label for="pr">Perempuan</label>
+    <br>
+
+    <label for="tahun">Tahun Masuk Perkuliahan:</label>
+    <select name="tahun" id="tahun">
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+    </select><br>
+      
+     Genre Lagu:<br>
+       <input type="checkbox" name="dangdut">Dangdut<br>
+       <input type="checkbox" name="reggae">Reggae<br>
+       <input type="checkbox" name="pop">Pop<br>
+       <input type="checkbox" name="rap">Rap<br>
+       <input type="checkbox" name="rock">Rock<br>
+       <input type="checkbox" name="Jazz">Jazz<br>
+       <input type="checkbox" name="lainnya">Lainnya<br>
+       <label for="alasann">Alasan anda memilih genre tersebut:</label><br>
+      <textarea name="alasan" id="alasan" cols="50" rows="5"></textarea><br>
+      
+      <input type="submit" value="Daftar">
+      <button type="reset">Hapus Form</button>
+  </form>
+  </fieldset>
+  </div>
+</body>
+</html>

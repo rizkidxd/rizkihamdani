@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(luar-angkasa.jpg);
+    
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.input-text {
+    border: 2px solid transparent;
+    border-bottom: solid;
+    padding: 4px 0px;
+    outline-style: none;
+    transition: .3s ease-out;
+    color: teal;
+}
+
+.input-text:focus {
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 12px;
+    border: solid 2px;
+    border-color: teal;
+}
+
+.input-text::placeholder {
+    color: #ccc;
+    transition: .3s;
+}
+
+.input-text::placeholder {
+    opacity: 0;
+}
+
+h1 {
+    color: rgb(255, 0, 93);
+}
